@@ -6,15 +6,15 @@ public class RC5 {
         int minutes = now.getMinute();
         int seconds = now.getSecond();
 
-        int Var1 = seconds % 10;
-        int Var2 = seconds % 10;
-        int Var3 = seconds % 10;
-        int Var4 = seconds % 10;
-        int Var5 = seconds % 10;
-        int Var6 = seconds % 10;
-        int Var7 = seconds % 10;
-        int Var8 = seconds % 10;
-        int Var9 = seconds % 10;
+        int Var1 = seconds % 9;
+        int Var2 = seconds % 9;
+        int Var3 = seconds % 9;
+        int Var4 = seconds % 9;
+        int Var5 = seconds % 9;
+        int Var6 = seconds % 9;
+        int Var7 = seconds % 9;
+        int Var8 = seconds % 9;
+        int Var9 = seconds % 9;
 
         int VarA = seconds % 26;
         int VarB = seconds % 26;
