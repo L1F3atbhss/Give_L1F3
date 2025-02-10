@@ -1,3 +1,4 @@
+import java.nio.channels.MulticastChannel;
 import java.time.LocalTime;
 
 public class RC5 {
@@ -16,9 +17,11 @@ public class RC5 {
         int Var8 = seconds % 9;
         int Var9 = seconds % 9;
 
-        int VarA = seconds % 26;
-        int VarB = seconds % 26;
-        int VarC = seconds % 26;
+        int VarA = seconds % 25;
+        int VarB = seconds % 25;
+        int VarC = seconds % 25;
+
+        int Var = minutes % 59;
 
         int[] RC1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
         int[] RC2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
