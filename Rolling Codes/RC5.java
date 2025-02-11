@@ -1,4 +1,3 @@
-import java.nio.channels.MulticastChannel;
 import java.time.LocalTime;
 
 public class RC5 {
@@ -40,7 +39,7 @@ public class RC5 {
         System.out.println("RC:" + "RC" + RC1[Var1] + L1[VarA] + RC2[Var2] + RC3[Var3] + L2[VarB] + RC4[Var4] + RC5[Var5] + L3[VarC] + RC6[Var6] + RC7[Var7] + RC8[Var8] + RC9[Var9]);
         //System.out.println("RC:RC1A23B45C6789");
         System.out.println(Var1 + 1);
-
+        System.out.println(Var);
         //3.14 + 
 
     }
