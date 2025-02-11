@@ -44,7 +44,7 @@ while running:
         pygame.draw.lines(screen, RED, False, drawn_points, 3)
 
     pygame.display.flip()
-    clock.tick(60)  # Control drawing speed
+    clock.tick(45)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
