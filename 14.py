@@ -7,7 +7,7 @@ pygame.init()
 # Screen dimensions
 WIDTH, HEIGHT = 500, 500
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Drawing a Heart")
+pygame.display.set_caption("<3 ")
 
 # Colors
 RED = (255, 0, 0)
