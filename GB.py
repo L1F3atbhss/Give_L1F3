@@ -33,13 +33,11 @@ while running:
         burger_x = (screen_width - burger_width) // 2  
 
     screen.fill(WHITE)
-    screen.blit(school_bg, (0, 0))  # Draw the school background
-    screen.blit(burger_img, (burger_x, burger_y))  # Draw the falling burger
+    screen.blit(school_bg, (0, 0))
+    screen.blit(burger_img, (burger_x, burger_y))
 
     pygame.display.flip()
 
-    # Delay to make the game run at a reasonable speed
     pygame.time.Clock().tick(60)
 
-# Quit Pygame
 pygame.quit()
