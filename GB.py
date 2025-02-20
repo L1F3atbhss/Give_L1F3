@@ -15,7 +15,7 @@ WHITE = (255, 255, 255)
 
 # Load images
 burger_img = pygame.image.load('burger.png')
-school_bg = pygame.image.load('school_background.png')
+school_bg = pygame.image.load('school_background.avif')
 
 # Scale the images if needed
 burger_img = pygame.transform.scale(burger_img, (50, 50))
