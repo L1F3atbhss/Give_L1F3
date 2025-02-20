@@ -14,7 +14,7 @@ pygame.display.set_caption('Burger Falling on School!')
 WHITE = (255, 255, 255)
 
 # Load images
-burger_img = pygame.image.load('burger.png')
+burger_img = pygame.image.load('burger.jpeg')
 school_bg = pygame.image.load('school_background.avif')
 
 # Scale the images if needed
