@@ -12,7 +12,7 @@ WHITE = (255, 255, 255)
 burger_img = pygame.image.load('burger.jpeg')
 school_bg = pygame.image.load('018_billhogarth_3.jpeg')
 
-burger_img = pygame.transform.scale(burger_img, (250, 250))
+burger_img = pygame.transform.scale(burger_img, (400, 350))
 school_bg = pygame.transform.scale(school_bg, (screen_width, screen_height))
 
 burger_width = 250
