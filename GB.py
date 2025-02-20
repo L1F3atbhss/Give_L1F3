@@ -5,8 +5,8 @@ import random
 pygame.init()
 
 # Set up the screen
-screen_width = 800
-screen_height = 600
+screen_width = 1350
+screen_height = 800
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Burger Falling on School!')
 
@@ -15,10 +15,10 @@ WHITE = (255, 255, 255)
 
 # Load images
 burger_img = pygame.image.load('burger.jpeg')
-school_bg = pygame.image.load('Bill-Hogarth-Secondary-School.jpeg.avif')
+school_bg = pygame.image.load('018_billhogarth_3.jpeg')
 
 # Scale the images if needed
-burger_img = pygame.transform.scale(burger_img, (50, 50))
+burger_img = pygame.transform.scale(burger_img, (250, 250))
 school_bg = pygame.transform.scale(school_bg, (screen_width, screen_height))
 
 # Burger settings
