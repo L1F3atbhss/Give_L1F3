@@ -55,7 +55,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "FarLeftThreePath"
+            "pathName": "FarLeftThreePathRED"
           }
         },
         {
@@ -80,6 +80,30 @@
           "type": "named",
           "data": {
             "name": "Pickup Coral"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "FarLeftFivePath"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Lift Elevator"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Deposite Coral"
           }
         }
       ]
